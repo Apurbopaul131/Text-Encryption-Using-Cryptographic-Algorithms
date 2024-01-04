@@ -6,7 +6,6 @@ import {Link } from "react-router-dom";
 const Home = () => {
     const [input,setInput] = useState('')
     const handleInput = (e) =>{
-        console.log(e.target.value);
         e.preventDefault();
         setInput(e.target.value);
     }
