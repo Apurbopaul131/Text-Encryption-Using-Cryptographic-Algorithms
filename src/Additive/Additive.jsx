@@ -20,13 +20,13 @@ const Additive = () => {
         const cipherText = AdditivEncryptText(textArea, shift);
         setCipherText(cipherText);
         setPlainText(textArea);
-        setTextArea('');
-        setKey('');
+        // setTextArea('');
+        // setKey('');
     }
     function AdditivEncryptText(plainText, shift) {
         // Check if shift is within the valid range (0-25)
         if (shift < 0 || shift > 25) {
-            return 'Shift should be between 0 and 25 inclusive.'
+            return 'Key should be between 0 and 25 inclusive.'
         }
 
         else {
