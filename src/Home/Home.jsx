@@ -14,7 +14,8 @@ const Home = () => {
             <h1 className='title'>Text Encription Using Cryptography Algoritms</h1>
             <ol type='1'>
                 <li>Additve or Ceaser Cipher</li>
-                <li>Multiplicative</li>
+                <li>Multiplicative Cipher</li>
+                <li>Affine Cipher</li>
                 <li>Vigenere Cipher</li>
                 <li>Railfence Cipher</li>
                 <li>Autokey Cipher</li>

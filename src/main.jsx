@@ -8,6 +8,7 @@ import {
 import Home from './Home/Home.jsx';
 import ErrorPage from './ErrorPage/ErrorPage.jsx';
 import Additive from './Additive/Additive.jsx';
+import Multiplicative from './Multiplicative/Multiplicative.jsx';
 const router = createBrowserRouter([
   {
     path:'/',
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path:'cipher/1',
     element:<Additive></Additive>,
+  },
+  {
+    path:'cipher/2',
+    element:<Multiplicative></Multiplicative>
   }
 ])
 
