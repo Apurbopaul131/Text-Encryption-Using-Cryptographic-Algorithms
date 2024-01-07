@@ -22,8 +22,8 @@ const Multiplicative = () => {
         const cipherText = MultiplicativeEncryptText(textArea, shift);
         setCipherText(cipherText);
         setPlainText(textArea);
-        setTextArea('');
-        setKey('');
+        // setTextArea('');
+        // setKey('');
     }
     function MultiplicativeEncryptText(plainText,key){
          // Check if the key is within the valid range (0-25)

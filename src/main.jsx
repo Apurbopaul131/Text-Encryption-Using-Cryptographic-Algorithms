@@ -10,6 +10,7 @@ import ErrorPage from './ErrorPage/ErrorPage.jsx';
 import Additive from './Additive/Additive.jsx';
 import Multiplicative from './Multiplicative/Multiplicative.jsx';
 import Affine from './Affine/Affine.jsx';
+import Vigenere from './Vigenere/Vigenere.jsx';
 const router = createBrowserRouter([
   {
     path:'/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path:'cipher/3',
     element:<Affine></Affine>
+  },
+  {
+    path:'cipher/4',
+    element:<Vigenere>ß</Vigenere>
   }
 ])
 

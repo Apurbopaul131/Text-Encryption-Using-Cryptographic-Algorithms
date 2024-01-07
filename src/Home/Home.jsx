@@ -17,10 +17,6 @@ const Home = () => {
                 <li>Multiplicative Cipher</li>
                 <li>Affine Cipher</li>
                 <li>Vigenere Cipher</li>
-                <li>Railfence Cipher</li>
-                <li>Autokey Cipher</li>
-                <li>Playfair Cipher</li>
-                <li>RSA</li>
             </ol>
             <div>
             <label>
